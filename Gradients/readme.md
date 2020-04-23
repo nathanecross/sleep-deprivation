@@ -11,4 +11,5 @@ We used functional magnetic resonance imaging to assess activations and connecti
 Please direct any questions to nathan.cross@concordia.ca
 
 # How to Cite
-If you use this code, please cite the reference above, and direct the reader to https://github.com/nathanecross/sleep-deprivation/tree/master/Gradients
+If you use this code, please cite the reference above, and direct the reader to: 
+https://github.com/nathanecross/sleep-deprivation/tree/master/Gradients

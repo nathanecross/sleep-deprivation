@@ -5,22 +5,21 @@
 %% Load dependencies and setup
 
 % Add dependencies
-addpath('dependencies/customcolormap');
-addpath('dependencies/fireice');
-addpath('dependencies/cbrewer');
-addpath('dependencies/DNorm2');
-addpath('dependencies/surfstat');
-addpath('gradients');
+addpath('../../dependencies/customcolormap');
+addpath('../../dependencies/fireice');
+addpath('../../dependencies/cbrewer');
+addpath('../../dependencies/DNorm2');
+addpath('../../dependencies/surfstat');
+addpath('../../gradients');
 
 % Load data
-load('gradients/embedding.mat');
-load('gradients/indi_embed.mat');
-load('labels/Yeo17_Shf400.mat');
-load('SubjectName');
-load('labels/fsaverage5/ShfParcels/ShfLabels400_17.mat') 
-addpath('dependencies/cbrewer');
+load('../embedding.mat');
+load('../indi_embed.mat');
+load('../../labels/Yeo17_Shf400.mat');
+load('../../SubjectName.mat');
+load('../../labels/fsaverage5/ShfParcels/ShfLabels400_17.mat') 
 times = {'Control','PreNap','PostNap'};
-FS = SurfStatAvSurf({'../../Parcellations/FreeSurfer5.3/subjects/fsaverage5/surf/lh.pial', '../../Parcellations/FreeSurfer5.3/subjects/fsaverage5/surf/rh.pial'});
+FS = SurfStatAvSurf({'../../labels/fsaverage5/surf/lh.pial', '../../labels/fsaverage5/surf/rh.pial'});
 parc = [lh_labels_Shf(:,1)' rh_labels_Shf(:,1)'];
 nonwall = [2:201 203:402];
 

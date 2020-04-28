@@ -3,14 +3,14 @@
 %
 
 %% Load dependencies and setup
-addpath('dependencies');
-NOGSR = load('data/ConMat400_task-All.mat');
-GSR = load('../code_output_gsr/data/ConMat400_task-All.mat');
-load('data/GLM.mat'); NOGSR.GLM = GLM;
-load('../code_output_gsr/data/GLM.mat'); GSR.GLM = GLM;
-load('gradients/embedding.mat'); NOGSR.embedding = embedding;
-load('../code_output_gsr/gradients/embedding.mat'); GSR.embedding = embedding;
-load('labels/Yeo17_Shf400.mat')
+addpath('../../dependencies');
+NOGSR = load('../../data/ConMat400_task-All.mat');
+GSR = load('../../data/ConMat400_task-All.mat');
+load('../../data/GLM.mat'); NOGSR.GLM = GLM;
+load('../../data/gsr/GLM.mat'); GSR.GLM = GLM;
+load('../../gradients/embedding.mat'); NOGSR.embedding = embedding;
+load('../../gradients/gsr/embedding.mat'); GSR.embedding = embedding;
+load('../../labels/Yeo17_Shf400.mat')
 times = fieldnames(GSR.ConMat.times);
 
 %% Figure 5A + B

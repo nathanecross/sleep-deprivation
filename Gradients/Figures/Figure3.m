@@ -3,12 +3,14 @@
 %
 
 %% Load dependencies and setup
-addpath('dependencies/surfstat');
-load('labels/fsaverage5/ShfParcels/ShfLabels400_17.mat') 
+addpath('../../dependencies/surfstat');
+load('../../labels/fsaverage5/ShfParcels/ShfLabels400_17.mat') 
+load('../embedding.mat');
 tasks = {'ANT', 'Nback', 'PVT'};
+NumberOfParcels = 400;
 
 % Import Freesurfer surface for plotting
-FS = SurfStatAvSurf({'../../Parcellations/FreeSurfer5.3/subjects/fsaverage5/surf/lh.pial', '../../Parcellations/FreeSurfer5.3/subjects/fsaverage5/surf/rh.pial'});
+FS = SurfStatAvSurf({'../../labels/fsaverage5/surf/lh.pial', '../../labels/fsaverage5/surf/rh.pial'});
 parc = [lh_labels_Shf(:,1)' rh_labels_Shf(:,1)'];
 nonwall = [2:201 203:402];
 

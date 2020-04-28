@@ -5,7 +5,7 @@
 %% Load dependencies and setup
 addpath('../../dependencies');
 NOGSR = load('../../data/ConMat400_task-All.mat');
-GSR = load('../../data/ConMat400_task-All.mat');
+GSR = load('../../data/gsr/ConMat400_task-All.mat');
 load('../../data/GLM.mat'); NOGSR.GLM = GLM;
 load('../../data/gsr/GLM.mat'); GSR.GLM = GLM;
 load('../../gradients/embedding.mat'); NOGSR.embedding = embedding;

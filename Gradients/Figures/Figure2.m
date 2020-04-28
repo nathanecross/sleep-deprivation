@@ -3,18 +3,18 @@
 %
 
 %% Load dependencies
-addpath('dependencies/surfstat');
-load('gradients/embedding.mat');
-load('labels/fsaverage5/ShfParcels/ShfLabels400_17.mat') 
-load('labels/Yeo17_Shf400.mat');
+addpath('../../dependencies/surfstat');
+load('../embedding.mat');
+load('../../labels/fsaverage5/ShfParcels/ShfLabels400_17.mat') 
+load('../../labels/Yeo17_Shf400.mat');
 
 % Import Freesurfer surface for plotting
-FS = SurfStatAvSurf({'../../Parcellations/FreeSurfer5.3/subjects/fsaverage5/surf/lh.pial', '../../Parcellations/FreeSurfer5.3/subjects/fsaverage5/surf/rh.pial'});
+FS = SurfStatAvSurf({'../../labels/fsaverage5/surf/lh.pial', '../../labels/fsaverage5/surf/rh.pial'});
 parc = [lh_labels_Shf(:,1)' rh_labels_Shf(:,1)'];
 nonwall = [2:201 203:402];
 
 % Load Yeo 17 Network template on fsaverage5 surface
-Yeo_17Clusters_ref = load('labels/fsaverage5/YeoNetworks/1000subjects_clusters017_ref.mat'); 
+Yeo_17Clusters_ref = load('../../labels/fsaverage5/YeoNetworks/1000subjects_clusters017_ref.mat'); 
 
 
 % Squeeze first 3 gradients

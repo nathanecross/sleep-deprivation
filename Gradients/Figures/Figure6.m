@@ -56,6 +56,6 @@ f = figure;
     l.Color = 'k';
     l.LineWidth = 2;
     l.LineStyle = '--';
-    fname = char('../code_output_gsr/gradients/F7_corr.png');
+    fname = char('../../gradients/Figures/F6_corr.png');
     exportfig(f, fname, 'Format', 'png', 'Resolution', 600, 'FontSize', 0.8)
 end

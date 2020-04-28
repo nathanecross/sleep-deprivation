@@ -4,6 +4,7 @@
 
 %% Load dependencies and setup
 addpath('../../dependencies/surfstat');
+addpath('../../dependencies/shadedErrorBar.m');
 load('../../labels/fsaverage5/ShfParcels/ShfLabels400_17.mat') 
 load('../embedding.mat');
 tasks = {'ANT', 'Nback', 'PVT'};

@@ -3,12 +3,14 @@
 %
 
 %% Load dependencies and setup
-addpath('gradients');
-addpath('dependencies/customcolormap');
-load('../code_output_gsr/gradients/indi_embed.mat');
-load('data/Behave.mat');
-load('SubjectName.mat');
+addpath('../../gradients');
+addpath('../../dependencies/customcolormap');
+addpath('../../dependencies/exportfig');
+load('../../gradients/gsr/indi_embed.mat');
+load('../../data/Behave.mat');
+load('../../SubjectName.mat');
 times = {'Control','PreNap','PostNap'};
+
 %% EXTENT OF EACH GRADIENT AT BASELINE AND RELATIONSHIP TO BEHAVIOUR
 
 for g = 1:3

@@ -6,3 +6,5 @@ Sleep deprivation (SD) leads to impairments in cognitive function. Here, we test
 
 
 ![](Figures/Figure1.png)
+
+Fig 1. (A) The t-test matrix of change in functional correlations between the timeseries of 400 cortical parcels (during task performance) depicts a widespread increase in correlations between sleep deprivation (SD) and well rested (WR) states (unthresholded, lower triangle; thresholded PFDR<0.05, upper triangle). (B) Changes in integration (as a percentage of the value in the WR condition) are shown across different levels of a hierarchical model of the cortex: whole cortex, 7 networks, 17 networks, and 57 clusters. The total integration within the cortex increased from the WR to the SD state, but not within all networks (*italics depict significant changes measured through a Bayesian framework). (C) The % change in total integration at each level of the hierarchy mapped onto the cortical surface illustrates the increase in integration is most focused toward the centre of the lateral surface. DMN = Default Mode Network; DAN = Dorsal Attention Network; VAN = Ventral Attention (Salience) Network; Somato = Somatomotor Network!

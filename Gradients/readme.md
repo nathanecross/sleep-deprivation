@@ -1,5 +1,5 @@
 # References
-Trait-like gradients of functional connectivity are robust to state-dependent changes following sleep deprivation. Cross N, Paquola C,  Pomares F, Perrault A, Jegou A, Nguyen A, Aydin U, Bernhardt B, Grova C, and Dang-Vu TT. 2020. (Under review at NeuroImage). 
+Trait-like gradients of functional connectivity are robust to state-dependent changes following sleep deprivation. Cross N, Paquola C,  Pomares F, Perrault A, Jegou A, Nguyen A, Aydin U, Bernhardt B, Grova C, and Dang-Vu TT. 2020. (NeuroImage v221). 
 
 
 

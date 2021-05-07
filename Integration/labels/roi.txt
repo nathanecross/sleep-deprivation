@@ -1,0 +1,12 @@
+amygdala_lh	18
+amygdala_rh	54
+thalamus_lh	10
+thalamus_rh	49
+caudate_lh	11
+caudate_rh	50
+hippocampus_lh	17
+hippocampus_rh	53
+pallidum_lh	13
+pallidum_rh	52
+putamen_rh	51
+putamen_lh	12

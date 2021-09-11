@@ -1,4 +1,5 @@
 # Reference
+1.	Cross N, Pomares FB, Nguyen A, Perrault AA, Jegou A, Uji M, Lee K, Razavipour F, Ali OBK, Aydin U, Benali H, Grova C, Dang-Vu TT. (2020). An altered balance of integrated and segregated brain activity is a marker of cognitive deficits following sleep deprivation. (Accepted, PLoS Biology) - bioRxiv; https://doi.org/10.1101/2020.11.28.402305.![image](https://user-images.githubusercontent.com/32174859/132962550-ad17d085-a6d4-4ab7-a958-2a2aa8052597.png)
 
 
 # Background
